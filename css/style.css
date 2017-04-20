@@ -1,0 +1,319 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: RobotoRegular;
+  width: 100%;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.header {
+  background: url(../images/header_image.png) no-repeat center top / cover;
+  height: 800px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.main_top {
+  background-color: rgba(30, 30, 30, 0.9);
+  height: 100px;
+  width: 100%;
+  position: fixed;
+  line-height: 100px;
+
+}
+
+#logo {
+  height: 60px;
+  margin: auto 0px;
+  vertical-align: middle;
+}
+
+/* Меню*/
+#navbar {
+  margin: 0 0px;
+  padding: 0;
+  list-style-type: none;
+  float: right;
+  font-size: 1.5em;
+}
+#navbar li {
+  display: inline;
+  margin: 0 0 0 20px;
+}
+
+#navbar a {
+  color: #618bdc;
+  text-decoration: none;
+  display: inline-block;
+}
+#navbar a:hover {
+  color: #ff794d;
+}
+
+
+
+/*Кнопка Зарегистрироваться*/
+.button {
+  background: #FF6600;
+  color: #FFF;
+  font-size: 2em;
+  text-transform: uppercase;
+  text-align: center;
+  border-radius: 5px;
+  padding: 19px 30px;
+  width: 400px;
+  margin: 0px auto;
+  display: block;
+  cursor: pointer;
+
+  background-image: linear-gradient(45deg, rgba(255,255,255,.0) 30%, rgba(255,255,255,.8), rgba(255,255,255,.0) 70%);
+  background-repeat: no-repeat;
+  background-size: 200% 100%, auto;
+  background-position: 200% 0, 0 0;
+}
+
+.button:hover {
+  transition: .5s linear;
+  background-position: -200% 0, 0 0;
+}
+
+
+.second {
+
+  padding-bottom: 30px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+}
+
+
+
+.address, .motto {
+  color: #FFF;
+  text-align: center;
+  font-family: RobotoLight;
+}
+
+.address {
+  color: #FFF;
+  font-size: 1.7em;
+  text-align: center;
+  padding: 250px 0 0 0;
+  font-family: RobotoLight;
+}
+
+.motto {
+  font-size: 2.5em;
+  padding-bottom: 50px;
+}
+
+.topic {
+  color: #FFF;
+  font-size: 5em;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 10px 0;
+}
+
+h2 {
+  color: #005F96;
+  font-size: 2.5em;
+  text-align: center;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+
+.themes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.theme {
+  background-color: #FF6600;
+  color: #FFF;
+  padding: 15px;
+  float: left;
+  height: 250px;
+  width: 43%;
+  border-radius: 10px;
+  margin: 5px 15px;
+}
+
+.theme p {
+  color: #FFF;
+  font-size: 2em;
+  font-family: RobotoMedium;
+  text-align: center;
+}
+
+.list_themes{
+  margin-left: 30px;
+}
+
+.list_themes li {
+  font-size: 1.4em;
+  padding: 6px;
+}
+
+.subsubheading {
+  font-family: RobotoLight;
+  color: #444;
+  font-size: 2.3em;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+
+
+/*Секция фоток с подписями*/
+.fotos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.foto {
+  color: #FFF;
+  float: left;
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  margin: 5px 30px;
+}
+
+.name {
+  color: #000;
+  font-family: RobotoMedium;
+  font-size: 1.7em;
+  text-align: center;
+}
+
+.description {
+  font-family: RobotoLight;
+  color: #444;
+  font-size: 1.5em;
+  text-align: center;
+  width: 300px;
+  margin: auto;
+  line-height: 120%;
+}
+
+.person {
+  padding: 20px 0;
+  margin: 0px 20px 10px 0px;
+}
+
+
+
+
+/*Оранжевый див с ценой*/
+.price_main {
+  height: 250px;
+  background-color: #FF6600;
+  margin: 40px 0 0;
+}
+
+.price {
+  font-family: RobotoLight;
+  color: #FFF;
+  font-size: 2.5em;
+  padding-top: 25px;
+  text-align: center;
+}
+
+.register {
+  color: #FFF;
+  font-size: 3em;
+  text-align: center;
+  margin: 15px;
+}
+
+
+/*Вопросы "почему"*/
+.theme_why, .theme_why2 {
+  color: #005F96;
+  font-size: 1.5em;
+  text-align: center;
+  height: 70px;
+  width: 36%;
+  margin: 15px 20px;
+}
+
+.theme_why2 {
+  height: 130px; 
+}
+
+
+
+
+/*Форма регистрации*/
+
+#order {
+  background: #f2f2f2;
+}
+
+.form {
+  width: 400px;
+  margin: 0px auto;
+}
+
+.user, select {
+  color: #888;
+  border-radius: 5px;
+  background: #fff;
+  display: block;
+  height: 50px;
+  padding-left: 24px;
+  border: 0px;
+  box-shadow: 0px 3px 3px rgba(0,0,0,0.2);
+  margin-bottom: 14px;
+  width: 100%;
+  font-size: 1em;
+  box-sizing: border-box;
+}
+
+form .button {
+  font-size: 1.7em;
+  border: none;
+}
+
+
+.footer {
+  height: 100px;
+  background-color: #FF6600;
+  margin-top: 40px;
+}
+
+.footer img {
+  width: 13.5%;
+  height: 40px;
+  margin-top: 1.75%;
+}
+
+
+
+/*#content:before,
+#people:before,
+#registration:before {
+  display: block;
+  content: "";
+  height: 55px;
+  margin: -55px 0 0;
+}*/
